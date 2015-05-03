@@ -61,7 +61,7 @@
             newBottomFace.FrontRightCube = newRightFace.FrontBottomCube;
             newBackFace.TopRightCube = newRightFace.BackTopCube;
             newBackFace.RightCube = newRightFace.BackCube;
-            newBackFace.TopRightCube = newRightFace.BackBottomCube;
+            newBackFace.BottomRightCube = newRightFace.BackBottomCube;
         }
 
         private void RemoveOldCubes()

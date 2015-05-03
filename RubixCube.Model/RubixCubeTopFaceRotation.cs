@@ -59,7 +59,7 @@
             newRightFace.FrontTopCube = newTopFace.FrontRightCube;
             newRightFace.TopCube = newTopFace.RightCube;
             newRightFace.BackTopCube = newTopFace.BackRightCube;
-            newBackFace.TopLeftCube = newTopFace.FrontRightCube;
+            newBackFace.TopLeftCube = newTopFace.BackLeftCube;
             newBackFace.TopCube = newTopFace.BackCube;
             newBackFace.TopRightCube = newTopFace.BackRightCube;
         }
